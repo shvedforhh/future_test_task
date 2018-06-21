@@ -1,0 +1,282 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+p{
+	font-size:20px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#header{
+	background-color: #f9f9f9;
+} 
+#content{
+	background-color: #eeeeee;
+}
+#footer{
+	background-color: #f9f9f9;
+}
+
+.line-breaker{
+	/*height:100px;*/
+	height: 6px;
+	width:100%;
+	background-image: url(img/lb1.png);
+	background-position: center center; /* Положение фона */
+	background-repeat: repeat-x; /* Отменяем повторение фона */
+ 	background-size: auto;
+	background-color: #f9f9f9;
+}
+
+#header, #content, #footer{
+	padding: 10px 10%;
+}
+
+
+.left-part, .right-part{
+	display: inline-block;
+	vertical-align: top;
+}
+.left-part{float: left;}
+.right-part{float: right;}
+
+#x-page {
+	margin: auto;
+	max-width:1200px;
+	min-width:740px;
+		border: 2px solid #606060;
+}
+
+#users-comments{
+	min-height: 300px;
+}
+
+#users-comments .users-comment{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#users-comments .users-comment .UN, #users-comments .users-comment .DT{
+	display:inline-block;
+}
+#users-comments .users-comment .UN {
+	min-width:160px;
+}
+
+#users-comments .users-comment .UN p{
+	font-size:20px;
+	font-weight:700;
+}
+#users-comments .users-comment .DT p{
+	font-size:14px;
+	color:grey;
+}
+
+#x-page .logo{
+	background-image: url(img/logo.png);
+	background-position: center center; /* Положение фона */
+	background-repeat: no-repeat; /* Отменяем повторение фона */
+ 	background-size: 100% 100%;
+}
+#x-page #header .logo{
+	width: 187px;
+	height: 191px;
+}
+
+#x-page #header .info{
+	height: 60px;
+	padding-top: 20px;
+}
+#x-page #header .info p{
+	margin-top:3px;
+	margin-bottom:10px;
+}
+
+#x-page #header .comments{
+	margin-top:60px;
+	height: 70px;
+}
+
+#x-page #footer .logo{
+	width: 120px;
+	height: 122px;
+}
+#x-page #footer .logo, #x-page #footer .info{
+	display:inline-block;
+	vertical-align: bottom;
+}
+
+#x-page #footer .info{
+	margin-left: 36px;
+}
+
+
+#header .comments{
+	/*display:block;*/
+}
+
+#users-comments{
+	
+}
+
+.clear-both {
+	clear:both;
+}
+
+#form-comments{
+	width:500px;
+	
+}
+#form-comments div{
+	display:inline-block;
+}
+
+#form-comments .submit{
+	
+}
+
+#form-comments input.lname {
+	border: none;
+   	border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	
+   background: #ffffff !important; 
+   outline: none; 
+   height: 24px; 
+   width: 100%; 
+   color: #000000; 
+   font-size: 16px; 
+   font-family: Tahoma; 
+   
+   padding:20px;
+}
+#form-comments textarea.lcomm {
+	border: 2px solid #101010;
+	border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+   
+   background: #eeeeee !important; 
+   outline: none; 
+   height: 120px; 
+   width: 100%; 
+   color: #000000; 
+   font-size: 16px; 
+   font-family: Tahoma; 
+   
+   padding:4px;
+   resize: none;
+}
+/*
+input.submit{
+	border: none;
+   
+   background: #ffffff !important; 
+   outline: none; 
+   height: 24px; 
+   width: 100%; 
+   color: #000000; 
+   font-size: 16px; 
+   font-family: Tahoma; 
+   
+   padding:8px;
+}
+*/
+#form-comments .submit{
+	width:160px;
+	margin-left:340px;
+}
+
+#form-comments .submit input{
+	background: #eeeeee; 
+	
+  width:100%;
+  display: inline-block;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  font-size: 16px; 
+  font-family: Tahoma; 
+ 
+  padding:8px;
+  outline: none;
+ 
+ border: 2px solid #000000;
+	border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-weight:lighter;
+ 
+ 
+  transition: 0.2s;
+} 
+#form-comments .submit input:hover { background: rgba(0,0,0, 1); color: white}
+#form-comments .submit input:active { background: #499d62; }
+/*
+.submit {
+width:150px;
+height:40px;
+border-radius:20px;
+background:#459DE5;
+color:#fff;
+font-size:18px;
+cursor:pointer;
+}
+*/
+/* --- */
+p.st_b_w{
+	color:black;
+	font-size:16px;
+	font-weight:700;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.big_b_w{
+	color:black;
+	font-size:52px;
+	font-weight:lighter;
+	font-family: "PT Sans Narrow", arial, sans-serif;
+}
+
+p.mid_b_w{
+	color:black;
+	font-size:27px;
+	font-weight:lighter;
+	font-family: "PT Sans Narrow", arial, sans-serif;
+}
+
+a {
+	color:black;
+}
+a:visited {
+	color:#010101;
+}
+a:hover {
+	color:#499d62;
+}
+
+.all_r_r {
+	font-size:15px;
+	font-weight:lighter;
+}
+
+hr {
+	margin-top:10px;
+	margin-bottom:20px;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #a0a0a0; /* Цвет линии для остальных браузеров */
+    background-color: #a0a0a0; /* Цвет линии для браузера Firefox и Opera */ /* #f9f9f9 */
+	
+    height: 1px; /* Толщина линии */
+}
+
+
+
